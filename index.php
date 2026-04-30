@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $request_uri = $_SERVER['REQUEST_URI'];
 $base_path = dirname($_SERVER['SCRIPT_NAME']);
@@ -12,6 +13,16 @@ $route = explode('?', $route)[0]; // Remove query string
 // Simple routing
 $view = 'home';
 $params = [];
+
+if ($route === '/admin-login' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['admin_password']) && $_POST['admin_password'] === 'serena') {
+        $_SESSION['is_admin'] = true;
+    } else {
+        $_SESSION['admin_error'] = 'Senha incorreta.';
+    }
+    header('Location: /admin');
+    exit;
+}
 
 if ($route === '/' || $route === '') {
     $view = 'home';

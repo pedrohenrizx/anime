@@ -6,23 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Verify Admin role
-    const roleQuery = new Parse.Query(Parse.Role);
-    roleQuery.equalTo("name", "Admin");
-    roleQuery.equalTo("users", currentUser);
-
-    roleQuery.first().then(function(role) {
-        if (!role) {
-            alert("Acesso negado. Você não é um administrador.");
-            window.location.href = '/';
-        }
-    }).catch(function(error) {
-        console.error("Error checking role:", error);
-        window.location.href = '/';
-    });
-
     const form = document.getElementById('news-form');
     const msgEl = document.getElementById('admin-message');
+
+    // Only bind if the form exists (user is authenticated via PHP)
+    if (!form) return;
 
     const showMessage = (msg, isError = false) => {
         msgEl.textContent = msg;

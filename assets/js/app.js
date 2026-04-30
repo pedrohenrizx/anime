@@ -21,18 +21,11 @@ const App = {
             if (userMenu) userMenu.classList.remove('hidden');
             if (mobileUserMenu) mobileUserMenu.classList.remove('hidden');
 
-            // Check if Admin
-            const roleQuery = new Parse.Query(Parse.Role);
-            roleQuery.equalTo("name", "Admin");
-            roleQuery.equalTo("users", currentUser);
-            roleQuery.first().then(function(role) {
-                if (role) {
-                    const adminLink = document.getElementById('admin-link');
-                    const mobileAdminLink = document.getElementById('mobile-admin-link');
-                    if (adminLink) adminLink.classList.remove('hidden');
-                    if (mobileAdminLink) mobileAdminLink.classList.remove('hidden');
-                }
-            });
+            // Make Admin link visible for password prompt flow
+            const adminLink = document.getElementById('admin-link');
+            const mobileAdminLink = document.getElementById('mobile-admin-link');
+            if (adminLink) adminLink.classList.remove('hidden');
+            if (mobileAdminLink) mobileAdminLink.classList.remove('hidden');
 
         } else {
             if (authButtons) authButtons.classList.remove('hidden');
