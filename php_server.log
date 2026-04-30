@@ -1,0 +1,97 @@
+[Thu Apr 30 00:17:07 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Thu Apr 30 00:17:19 2026] [::1]:59094 Accepted
+[Thu Apr 30 00:17:19 2026] [::1]:59094 [200]: GET /register
+[Thu Apr 30 00:17:19 2026] [::1]:59094 Closing
+[Thu Apr 30 00:17:19 2026] [::1]:59108 Accepted
+[Thu Apr 30 00:17:19 2026] [::1]:59120 Accepted
+[Thu Apr 30 00:17:19 2026] [::1]:59130 Accepted
+[Thu Apr 30 00:17:19 2026] [::1]:59108 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:17:19 2026] [::1]:59108 Closing
+[Thu Apr 30 00:17:19 2026] [::1]:59120 [200]: GET /assets/js/theme.js
+[Thu Apr 30 00:17:19 2026] [::1]:59130 [200]: GET /assets/js/app.js
+[Thu Apr 30 00:17:19 2026] [::1]:59120 Closing
+[Thu Apr 30 00:17:19 2026] [::1]:59130 Closing
+[Thu Apr 30 00:17:19 2026] [::1]:59134 Accepted
+[Thu Apr 30 00:17:19 2026] [::1]:59134 [200]: GET /assets/js/register.js
+[Thu Apr 30 00:17:19 2026] [::1]:59134 Closing
+[Thu Apr 30 00:17:23 2026] [::1]:59138 Accepted
+[Thu Apr 30 00:17:23 2026] [::1]:59138 [200]: GET /
+[Thu Apr 30 00:17:23 2026] [::1]:59138 Closing
+[Thu Apr 30 00:17:23 2026] [::1]:59146 Accepted
+[Thu Apr 30 00:17:23 2026] [::1]:59158 Accepted
+[Thu Apr 30 00:17:23 2026] [::1]:59174 Accepted
+[Thu Apr 30 00:17:23 2026] [::1]:59180 Accepted
+[Thu Apr 30 00:17:23 2026] [::1]:59158 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:17:23 2026] [::1]:59146 [200]: GET /assets/js/home.js
+[Thu Apr 30 00:17:23 2026] [::1]:59158 Closing
+[Thu Apr 30 00:17:23 2026] [::1]:59146 Closing
+[Thu Apr 30 00:17:23 2026] [::1]:59174 [200]: GET /assets/js/theme.js
+[Thu Apr 30 00:17:23 2026] [::1]:59174 Closing
+[Thu Apr 30 00:17:23 2026] [::1]:59180 [200]: GET /assets/js/app.js
+[Thu Apr 30 00:17:23 2026] [::1]:59180 Closing
+[Thu Apr 30 00:17:26 2026] [::1]:33062 Accepted
+[Thu Apr 30 00:17:26 2026] [::1]:33062 [200]: GET /admin
+[Thu Apr 30 00:17:26 2026] [::1]:33062 Closing
+[Thu Apr 30 00:17:26 2026] [::1]:33068 Accepted
+[Thu Apr 30 00:17:26 2026] [::1]:33082 Accepted
+[Thu Apr 30 00:17:26 2026] [::1]:33090 Accepted
+[Thu Apr 30 00:17:26 2026] [::1]:33106 Accepted
+[Thu Apr 30 00:17:26 2026] [::1]:33068 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:17:26 2026] [::1]:33082 [200]: GET /assets/js/admin.js
+[Thu Apr 30 00:17:26 2026] [::1]:33090 [200]: GET /assets/js/theme.js
+[Thu Apr 30 00:17:26 2026] [::1]:33106 [200]: GET /assets/js/app.js
+[Thu Apr 30 00:17:26 2026] [::1]:33068 Closing
+[Thu Apr 30 00:17:26 2026] [::1]:33082 Closing
+[Thu Apr 30 00:17:26 2026] [::1]:33090 Closing
+[Thu Apr 30 00:17:26 2026] [::1]:33106 Closing
+[Thu Apr 30 00:17:28 2026] [::1]:33116 Accepted
+[Thu Apr 30 00:17:28 2026] [::1]:33116 [302]: POST /admin-login
+[Thu Apr 30 00:17:28 2026] [::1]:33116 Closing
+[Thu Apr 30 00:17:28 2026] [::1]:33126 Accepted
+[Thu Apr 30 00:17:28 2026] [::1]:33126 [200]: GET /admin
+[Thu Apr 30 00:17:28 2026] [::1]:33126 Closing
+[Thu Apr 30 00:17:28 2026] [::1]:33130 Accepted
+[Thu Apr 30 00:17:28 2026] [::1]:33132 Accepted
+[Thu Apr 30 00:17:28 2026] [::1]:33130 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:17:28 2026] [::1]:33148 Accepted
+[Thu Apr 30 00:17:28 2026] [::1]:33132 [200]: GET /assets/js/theme.js
+[Thu Apr 30 00:17:28 2026] [::1]:33158 Accepted
+[Thu Apr 30 00:17:28 2026] [::1]:33130 Closing
+[Thu Apr 30 00:17:28 2026] [::1]:33148 [200]: GET /assets/js/app.js
+[Thu Apr 30 00:17:28 2026] [::1]:33132 Closing
+[Thu Apr 30 00:17:28 2026] [::1]:33148 Closing
+[Thu Apr 30 00:17:28 2026] [::1]:33158 [200]: GET /assets/js/admin.js
+[Thu Apr 30 00:17:28 2026] [::1]:33158 Closing
+[Thu Apr 30 00:17:30 2026] [::1]:33160 Accepted
+[Thu Apr 30 00:17:30 2026] [::1]:33160 [302]: POST /admin-login
+[Thu Apr 30 00:17:30 2026] [::1]:33160 Closing
+[Thu Apr 30 00:17:30 2026] [::1]:33176 Accepted
+[Thu Apr 30 00:17:30 2026] [::1]:33176 [200]: GET /admin
+[Thu Apr 30 00:17:30 2026] [::1]:33176 Closing
+[Thu Apr 30 00:17:30 2026] [::1]:33190 Accepted
+[Thu Apr 30 00:17:30 2026] [::1]:33206 Accepted
+[Thu Apr 30 00:17:30 2026] [::1]:33222 Accepted
+[Thu Apr 30 00:17:30 2026] [::1]:33232 Accepted
+[Thu Apr 30 00:17:30 2026] [::1]:33190 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:17:30 2026] [::1]:33190 Closing
+[Thu Apr 30 00:17:30 2026] [::1]:33206 [200]: GET /assets/js/theme.js
+[Thu Apr 30 00:17:30 2026] [::1]:33222 [200]: GET /assets/js/app.js
+[Thu Apr 30 00:17:30 2026] [::1]:33232 [200]: GET /assets/js/admin.js
+[Thu Apr 30 00:17:30 2026] [::1]:33206 Closing
+[Thu Apr 30 00:17:30 2026] [::1]:33222 Closing
+[Thu Apr 30 00:17:30 2026] [::1]:33232 Closing
+[Thu Apr 30 00:17:35 2026] [::1]:33238 Accepted
+[Thu Apr 30 00:17:35 2026] [::1]:33238 [200]: GET /
+[Thu Apr 30 00:17:35 2026] [::1]:33238 Closing
+[Thu Apr 30 00:17:36 2026] [::1]:33252 Accepted
+[Thu Apr 30 00:17:36 2026] [::1]:33258 Accepted
+[Thu Apr 30 00:17:36 2026] [::1]:33260 Accepted
+[Thu Apr 30 00:17:36 2026] [::1]:33272 Accepted
+[Thu Apr 30 00:17:36 2026] [::1]:33252 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:17:36 2026] [::1]:33258 [200]: GET /assets/js/theme.js
+[Thu Apr 30 00:17:36 2026] [::1]:33260 [200]: GET /assets/js/app.js
+[Thu Apr 30 00:17:36 2026] [::1]:33272 [200]: GET /assets/js/home.js
+[Thu Apr 30 00:17:36 2026] [::1]:33252 Closing
+[Thu Apr 30 00:17:36 2026] [::1]:33258 Closing
+[Thu Apr 30 00:17:36 2026] [::1]:33260 Closing
+[Thu Apr 30 00:17:36 2026] [::1]:33272 Closing
